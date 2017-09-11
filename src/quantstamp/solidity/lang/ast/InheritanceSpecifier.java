@@ -2,6 +2,8 @@ package quantstamp.solidity.lang.ast;
 
 import java.util.List;
 
+import quantstamp.solidity.lang.ast.expression.Expression;
+
 // InheritanceSpecifier = UserDefinedTypeName ( '(' Expression ( ',' Expression )* ')' )?
 
 public final class InheritanceSpecifier extends Node {
