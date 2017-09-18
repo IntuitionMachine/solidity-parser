@@ -1,7 +1,7 @@
 package quantstamp.solidity.lang.ast.statement;
 
-import quantstamp.solidity.lang.ast.StringLiteral;
 import quantstamp.solidity.lang.ast.assembly.InlineAssemblyBlock;
+import quantstamp.solidity.lang.ast.expression.StringLiteral;
 
 // InlineAssemblyStatement = 'assembly' StringLiteral? InlineAssemblyBlock
 

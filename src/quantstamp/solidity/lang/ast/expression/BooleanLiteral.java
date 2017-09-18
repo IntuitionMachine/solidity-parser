@@ -1,8 +1,8 @@
-package quantstamp.solidity.lang.ast;
+package quantstamp.solidity.lang.ast.expression;
 
 // BooleanLiteral = 'true' | 'false'
 
-public final class BooleanLiteral extends Node {
+public final class BooleanLiteral extends PrimaryExpression {
   public final boolean val;
 
   public BooleanLiteral(boolean val) {

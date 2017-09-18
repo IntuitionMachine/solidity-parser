@@ -1,10 +1,10 @@
-package quantstamp.solidity.lang.ast;
+package quantstamp.solidity.lang.ast.expression;
 
-import quantstamp.solidity.lang.ast.expression.Expression;
+import quantstamp.solidity.lang.ast.Identifier;
 
 // MemberAccess = Expression '.' Identifier
 
-public final class MemberAccess extends Node {
+public final class MemberAccess extends Expression {
   public final Expression expr;
   public final Identifier id;
 

@@ -1,8 +1,10 @@
-package quantstamp.solidity.lang.ast;
+package quantstamp.solidity.lang.ast.expression;
+
+import quantstamp.solidity.lang.ast.ElementaryTypeName;
 
 // ElementaryTypeNameExpression = ElementaryTypeName
 
-public final class ElementaryTypeNameExpression extends Node {
+public final class ElementaryTypeNameExpression extends PrimaryExpression {
   public final ElementaryTypeName elemTypeName;
 
   public ElementaryTypeNameExpression(final ElementaryTypeName elemTypeName) {

@@ -1,8 +1,10 @@
-package quantstamp.solidity.lang.ast;
+package quantstamp.solidity.lang.ast.expression;
+
+import quantstamp.solidity.lang.ast.TypeName;
 
 // NewExpression = 'new' TypeName
 
-public final class NewExpression extends Node {
+public final class NewExpression extends Expression {
   public final TypeName typeName;
 
   public NewExpression(final TypeName typeName) {

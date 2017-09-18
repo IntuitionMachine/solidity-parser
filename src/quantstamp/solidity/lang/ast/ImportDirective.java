@@ -1,5 +1,7 @@
 package quantstamp.solidity.lang.ast;
 
+import quantstamp.solidity.lang.ast.expression.StringLiteral;
+
 // ImportDirective = 'import' StringLiteral ('as' Identifier)? ';'
 // | 'import' ('*' | Identifier) ('as' Identifier)? 'from' StringLiteral ';'
 // | 'import' '{' Identifier ('as' Identifier)? ( ',' Identifier ('as' Identifier)? )* '}' 'from'

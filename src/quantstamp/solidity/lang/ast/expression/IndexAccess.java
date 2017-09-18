@@ -1,10 +1,8 @@
-package quantstamp.solidity.lang.ast;
-
-import quantstamp.solidity.lang.ast.expression.Expression;
+package quantstamp.solidity.lang.ast.expression;
 
 // IndexAccess = Expression '[' Expression? ']'
 
-public final class IndexAccess extends Node {
+public final class IndexAccess extends Expression {
   public final Expression expr1;
   public final Expression expr2;
 
